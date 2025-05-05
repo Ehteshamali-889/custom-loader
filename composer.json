@@ -1,15 +1,15 @@
 {
-    "name": "custom/loader",
+    "name": "ehteshamali/loader",
     "description": "Loads Custom model in Laravel project",
     "autoload": {
         "psr-4": {
-            "Custom\\Loader\\": "src/"
+            "Ehteshamali\\Loader\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Custom\\Loader\\CustomLoaderServiceProvider"
+                "Ehteshamali\\Loader\\CustomLoaderServiceProvider"
             ]
         }
     },
